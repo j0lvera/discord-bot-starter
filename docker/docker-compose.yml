@@ -1,0 +1,7 @@
+services:
+  python:
+    build:
+      context: ".."
+      dockerfile: "docker/Dockerfile"
+    environment:
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
