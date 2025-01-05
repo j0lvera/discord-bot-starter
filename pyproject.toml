@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "discord-bot-with-docker"
+version = "0.1.0"
+description = ""
+authors = ["Juan Olvera <juan@jolvera.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+discord-py = "^2.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["d"], version = "^24.10.0"}
+pylint = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
